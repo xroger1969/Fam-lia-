@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo: Adivinha o Número</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Adivinha o Número!</h1>
+        <p>Escolhe um número entre 1 e <span id="max-number">100</span>.</p>
+        <input type="number" id="guess-input" placeholder="Introduz a tua tentativa..." min="1" max="100">
+        <button id="guess-btn">Adivinhar</button>
+        <p id="feedback"></p>
+        <p id="attempts"></p>
+        <button id="play-again-btn" style="display:none;">Jogar outra vez</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
